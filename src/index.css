@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #f42c37;
+  --color-secondary: #f42c37;
+  --color-brand-yellow: #fdc62e;
+  --color-brand-green: #2dcc6f;
+  --color-brand-blue: #1376f4;
+  --color-brand-white: #eeeeee;
+
+  /* --container-center: true;
+  --container-padding: 1rem;
+  --container-padding-sm: 3rem; */
+}
+
+@layer base {
+  .dark {
+    color-scheme: dark;
+  }
+}
